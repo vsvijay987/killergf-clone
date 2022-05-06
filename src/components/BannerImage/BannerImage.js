@@ -14,7 +14,7 @@ const BannerImage = () => {
                 ]}
                 className="aspect-[2/1] lg:h-screen"
             >
-                <img className="" src="killer-girl-bg3.jpg" />
+                <img className="" src="killer-girl-bg3.jpg" alt="" />
             </ParallaxBanner>
         </div>
     );
