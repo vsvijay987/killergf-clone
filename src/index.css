@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fbf2f2;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.font-link {
+  font-family: 'Bubblegum Sans', cursive;
+  color: #666666;
+}
+
+.heading {
+  font-family: 'Bubblegum Sans', cursive;
+  color: #fb006e
+}
+
+.font-para {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  color: #666666;
+  font-size: x-large
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
