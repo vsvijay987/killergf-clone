@@ -96,10 +96,10 @@ const Header = () => {
                 <section className="hidden lg:block flex">
                     <div className="w-full px-4">
                         <ul className="flex font-link">
-                            <li className="pr-4 text-xl font-bold hover:text-black">
+                            <li className="pr-4 text-xl font-bold text-primary">
                                 <a href="/">HOME</a>
                             </li>
-                            <li className="pr-4 text-xl font-bold hover:text-black">
+                            <li className="cursor-pointer pr-4 text-xl font-bold hover:text-black">
                                 <Link
                                     to="story"
                                     spy={true}
@@ -110,7 +110,7 @@ const Header = () => {
                                     THE STORY
                                 </Link>
                             </li>
-                            <li className="pr-4 text-xl font-bold hover:text-black">
+                            <li className="cursor-pointer pr-4 text-xl font-bold hover:text-black">
                                 <Link
                                     to="demoImage"
                                     spy={true}
@@ -124,7 +124,7 @@ const Header = () => {
                             <li className="pr-4 text-xl font-bold hover:text-black">
                                 <a href="/">ROADMAP</a>
                             </li>
-                            <li className="pr-4 text-xl font-bold hover:text-black">
+                            <li className="cursor-pointer pr-4 text-xl font-bold hover:text-black">
                                 <Link
                                     to="featureArtist"
                                     spy={true}
@@ -135,8 +135,16 @@ const Header = () => {
                                     ARTIST
                                 </Link>
                             </li>
-                            <li className="text-xl font-bold hover:text-black">
-                                <a href="/">TEAM</a>
+                            <li className="cursor-pointer text-xl font-bold hover:text-black">
+                                <Link
+                                    to="team"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={50}
+                                    duration={1000}
+                                >
+                                    TEAM
+                                </Link>
                             </li>
                         </ul>
                     </div>

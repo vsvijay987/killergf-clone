@@ -6,6 +6,7 @@ import BannerImage from "./components/BannerImage/BannerImage";
 import TheStory from "./components/TheStory/TheStory";
 import DemoImage from "./components/DemoImage/DemoImage";
 import FeatureArtist from "./components/FeatureArtist/FeatureArtist";
+import Team from "./components/Team/Team";
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
             <TheStory />
             <DemoImage />
             <FeatureArtist />
+            <Team />
         </div>
     );
 };

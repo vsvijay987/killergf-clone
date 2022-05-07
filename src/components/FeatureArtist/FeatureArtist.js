@@ -28,7 +28,7 @@ const FeatureArtist = () => {
                 className=" flex items-center w-full mt-8 mx-auto"
                 autoPlay
                 infiniteLoop
-                interval={6000}
+                interval={3000}
                 showArrows={true}
                 showThumbs={false}
                 useKeyboardArrows
