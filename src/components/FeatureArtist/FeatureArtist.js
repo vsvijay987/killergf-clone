@@ -34,20 +34,20 @@ const FeatureArtist = () => {
                 useKeyboardArrows
                 showStatus={false}
             >
-                <div className="h-128 flex justify-evenly px-12 w-full">
-                    <div className="w-5/12 h-full">
+                <div className="lg:h-128 lg:flex justify-evenly lg:px-12 w-full">
+                    <div className=" w-full lg:w-5/12 lg:h-full">
                         <img
                             className="object-contain object-left h-5/6"
                             src="killergf10.jpg"
                             alt=""
                         />
                     </div>
-                    <div className="h-full w-3/6 items-center py-8">
-                        <div className="bg-white p-4 rounded-xl">
+                    <div className="w:full lg:h-full lg:w-3/6 items-center lg:py-8">
+                        <div className="bg-white lg:p-4 rounded-xl">
                             <p className="font-para text-3xl text-primary font-bold">
                                 Sashimi
                             </p>
-                            <p className="font-para text-black text-left mt-6">
+                            <p className="text-base px-2 font-para text-black text-left mt-2 lg:mt-6">
                                 Sashimi is a Japanese Illustrator who is known
                                 for her cute and vibrant style, she is a
                                 community favorite among uwucrew, Anifam NFT,
@@ -66,20 +66,20 @@ const FeatureArtist = () => {
                         </div>
                     </div>
                 </div>
-                <div className="h-128 flex justify-evenly px-12 w-full">
-                    <div className="w-5/12 h-full">
+                <div className="lg:h-128 lg:flex justify-evenly lg:px-12 w-full">
+                    <div className=" w-full lg:w-5/12 lg:h-full">
                         <img
                             className="object-contain object-left h-5/6"
                             src="killergf11.jpg"
                             alt=""
                         />
                     </div>
-                    <div className="h-full w-3/6 items-center py-8">
+                    <div className="w:full lg:h-full lg:w-3/6 items-center lg:py-8">
                         <div className="bg-white p-4 rounded-xl">
                             <p className="font-para text-3xl text-primary font-bold">
                                 Laur
                             </p>
-                            <p className="font-para text-black text-left mt-6">
+                            <p className="text-base px-2 font-para text-black text-left mt-2 lg:mt-6">
                                 Laur is the co-founder and artist for uwucrew.
                                 She has been a pioneer in the Anime NFT space
                                 and has inspired new Anime projects like Killer
@@ -98,20 +98,20 @@ const FeatureArtist = () => {
                         </div>
                     </div>
                 </div>
-                <div className="h-128 flex justify-evenly px-12 w-full">
-                    <div className="w-5/12 h-full">
+                <div className="lg:h-128 lg:flex justify-evenly lg:px-12 w-full">
+                    <div className="w-full lg:w-5/12 lg:h-full">
                         <img
                             className="object-contain object-left h-5/6"
                             src="killergf12.jpg"
                             alt=""
                         />
                     </div>
-                    <div className="h-full w-3/6 items-center py-8">
+                    <div className="w:full lg:h-full lg:w-3/6 items-center lg:py-8">
                         <div className="bg-white p-4 rounded-xl">
                             <p className="font-para text-3xl text-primary font-bold">
                                 Cirilla
                             </p>
-                            <p className="font-para text-black text-left mt-6">
+                            <p className="text-base px-2 font-para text-black text-left mt-2 lg:mt-6">
                                 Cirilla Lin is a Freelance illustrator from
                                 Taiwan. They have been drawing for over 4 years
                                 and are known for drawing figures and scenery.

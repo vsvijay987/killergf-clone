@@ -5,7 +5,6 @@ import styles from "./Header.module.css";
 
 const Header = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
-    console.log(isNavOpen);
     return (
         <div className="flex items-center justify-between p-8 top-0 z-50">
             <a href="/">
