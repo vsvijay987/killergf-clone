@@ -4,7 +4,7 @@ const TheStory = () => {
     return (
         <div
             id="story"
-            className="px-6 mx-auto text-center lg:w-5/6 py-16 lg:px-16"
+            className="px-6 mx-auto text-center lg:w-5/6 pt-16 lg:px-16"
         >
             <p className="text-6xl heading font-extrabold mb-10">THE STORY</p>
             <div className="">
