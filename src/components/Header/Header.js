@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
+
 import styles from "./Header.module.css";
 
 const Header = () => {
@@ -98,16 +100,40 @@ const Header = () => {
                                 <a href="/">HOME</a>
                             </li>
                             <li className="pr-4 text-xl font-bold hover:text-black">
-                                <a href="/">THE STORY</a>
+                                <Link
+                                    to="story"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={50}
+                                    duration={1000}
+                                >
+                                    THE STORY
+                                </Link>
                             </li>
                             <li className="pr-4 text-xl font-bold hover:text-black">
-                                <a href="/">GALLERY</a>
+                                <Link
+                                    to="demoImage"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={1000}
+                                >
+                                    GALLERY
+                                </Link>
                             </li>
                             <li className="pr-4 text-xl font-bold hover:text-black">
                                 <a href="/">ROADMAP</a>
                             </li>
                             <li className="pr-4 text-xl font-bold hover:text-black">
-                                <a href="/">ARTIST</a>
+                                <Link
+                                    to="featureArtist"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={50}
+                                    duration={1000}
+                                >
+                                    ARTIST
+                                </Link>
                             </li>
                             <li className="text-xl font-bold hover:text-black">
                                 <a href="/">TEAM</a>

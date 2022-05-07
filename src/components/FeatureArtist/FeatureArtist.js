@@ -4,7 +4,10 @@ import { Carousel } from "react-responsive-carousel";
 
 const FeatureArtist = () => {
     return (
-        <div className="px-6 mx-auto lg:w-5/6 py-16 lg:px-16">
+        <div
+            id="featureArtist"
+            className="px-6 mx-auto lg:w-5/6 py-16 lg:px-16"
+        >
             <p className="text-6xl heading font-extrabold mb-10">
                 FEATURE ARTISTS
             </p>
@@ -15,7 +18,7 @@ const FeatureArtist = () => {
                     Foundation for auction with the proceeds going to the
                     following split:
                 </p>
-                <ul class="list-disc font-para px-8">
+                <ul className="list-disc font-para px-8">
                     <li>33% to KGF Team</li>
                     <li>33% to the Artist</li>
                     <li>33% to Charity (Artists pick!)</li>
@@ -23,7 +26,6 @@ const FeatureArtist = () => {
             </div>
             <Carousel
                 className=" flex items-center w-full mt-8 mx-auto"
-                autoFocus
                 autoPlay
                 infiniteLoop
                 interval={6000}
