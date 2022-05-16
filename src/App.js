@@ -7,6 +7,9 @@ import TheStory from "./components/TheStory/TheStory";
 import DemoImage from "./components/DemoImage/DemoImage";
 import FeatureArtist from "./components/FeatureArtist/FeatureArtist";
 import Team from "./components/Team/Team";
+import Roadmap from "./components/Roadmap/Roadmap";
+import Footer from "./components/Footer/Footer";
+import WhyBuy from "./components/WhyBuy/WhyBuy";
 
 const App = () => {
     return (
@@ -16,8 +19,11 @@ const App = () => {
             <BannerImage />
             <TheStory />
             <DemoImage />
+            <Roadmap />
+            <WhyBuy />
             <FeatureArtist />
             <Team />
+            <Footer />
         </div>
     );
 };

@@ -18,7 +18,7 @@ const Team = () => {
                     future!
                 </p>
             </div>
-            <div className="lg:flex flex-wrap justify-between">
+            <div className="flex flex-wrap justify-between">
                 <Card
                     image="card-1.jpg"
                     title="Kiwi - Co-Founder and Developer"

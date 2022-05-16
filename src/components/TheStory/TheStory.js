@@ -9,39 +9,30 @@ const TheStory = () => {
             <p className="text-6xl heading font-extrabold mb-10">THE STORY</p>
             <div className="">
                 <p className="font-para mb-10 ">
-                    Cerise is a woman of many faces. Yet by spy networks and
-                    online sleuths, she is known only as the Killer GF assassin—
-                    the uncatchable killer who has no true face. The secret to
-                    her success lies in one supernatural gift. Wielding the
-                    Mirror of Narcissus, she holds at her fingertips the ability
-                    to reform her appearance into any disguises and powers using
-                    this dark artifact. This mirror, which consumes both the
-                    life essences and appearance of her kills, was a gift from
-                    the Crimson God himself. A heirloom of sorts for his
-                    favorite dearly beloved killer to better serve him by
-                    carrying out the critical assassinations that bring down
-                    societies, religions, and supernatural entities. Gods, even
-                    with their gifts, can be cruel with jests that transcend
-                    across the multiverse…
+                    We don't need to skip to future, because we are the future
+                    that generations before us envisaged. In a time when current
+                    world is fighting against unvouched aggressions on weaker
+                    countries, where rich are exploiting the poor, where govts
+                    decide what we should do and what we should not. It was time
+                    to bring in a better world,an era of Renaissance. For
+                    centuries the GODS have been in hiding. Not meddling with
+                    human development, silently shaping the world as we know it,
+                    moulding destinies of countless humans. As inequality
+                    proliferated amongst the human race, the GODS decided to
+                    lead the bandwagon of change where they will soon reveal
+                    themselves bringing about the dawn of new time. The Age of
+                    Gods in Renaissance.
                 </p>
                 <p className="font-para mb-10 ">
-                    Knowing little of the trick inlaid within the Mirror, Cerise
-                    used it once more. But this one, being the 7,777th time,
-                    triggered a breakage of dimensions within the mirror,
-                    pulling forth 7,777 versions of Cerise herself out into the
-                    same dimension, wearing what appears to be every disguise
-                    she has ever worn in the past for her kills.
-                </p>
-                <p className="font-para mb-10 ">
-                    Now that is a lot of deadly assassins in one room. But get
-                    this, each being sentient and believing that she is the real
-                    Cerise, they agree the only way to determine the one true
-                    Cerise would be to participate in a game. A deadly set of
-                    challenges within the metaverse where by playing and winning
-                    hearts, the Cerises compete against each other using daring
-                    and cunning tactics with only one coming out of it alive by
-                    the end. They say the biggest enemy standing in your way is
-                    yourself, but did they mean all 7,777?
+                    Be a part of this journey with us as we mint them onto
+                    blockchain and bring forward an adventure we won't be able
+                    to keep our eyes off, replete with treasure hunts ,P2E
+                    games, art shows, giveaways,still helping the planet by
+                    being eco friendly and helping the marginalised strata of
+                    society with the will of gods .While you own a piece of
+                    journey with this close knit community into the new
+                    renaissance let's remember again to be ourselves, to self
+                    govern and find god inside each one of us.
                 </p>
             </div>
         </div>

@@ -81,7 +81,7 @@ const Header = () => {
                                         THE STORY
                                     </Link>
                                 </li>
-                                <li className="cursor-pointer  text-xl font-bold hover:text-black">
+                                <li className="cursor-pointer text-xl font-bold hover:text-black">
                                     <Link
                                         to="demoImage"
                                         spy={true}
@@ -92,8 +92,16 @@ const Header = () => {
                                         GALLERY
                                     </Link>
                                 </li>
-                                <li className=" text-xl font-bold hover:text-black">
-                                    <a href="/">ROADMAP</a>
+                                <li className="cursor-pointer text-xl font-bold hover:text-black">
+                                    <Link
+                                        to="roadmap"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-50}
+                                        duration={1000}
+                                    >
+                                        ROADMAP
+                                    </Link>
                                 </li>
                                 <li className="cursor-pointer  text-xl font-bold hover:text-black">
                                     <Link
@@ -170,8 +178,16 @@ const Header = () => {
                                     GALLERY
                                 </Link>
                             </li>
-                            <li className="pr-4 text-xl font-bold hover:text-black">
-                                <a href="/">ROADMAP</a>
+                            <li className="cursor-pointer pr-4 text-xl font-bold hover:text-black">
+                                <Link
+                                    to="roadmap"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-20}
+                                    duration={1000}
+                                >
+                                    ROADMAP
+                                </Link>
                             </li>
                             <li className="cursor-pointer pr-4 text-xl font-bold hover:text-black">
                                 <Link
@@ -212,7 +228,6 @@ const Header = () => {
                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzAiIGhlaWdodD0iMzAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDQxLjYyNSAxMC43Njk1MzEgQyAzNy42NDQ1MzEgNy41NjY0MDYgMzEuMzQ3NjU2IDcuMDIzNDM4IDMxLjA3ODEyNSA3LjAwMzkwNiBDIDMwLjY2MDE1NiA2Ljk2ODc1IDMwLjI2MTcxOSA3LjIwMzEyNSAzMC4wODk4NDQgNy41ODk4NDQgQyAzMC4wNzQyMTkgNy42MTMyODEgMjkuOTM3NSA3LjkyOTY4OCAyOS43ODUxNTYgOC40MjE4NzUgQyAzMi40MTc5NjkgOC44NjcxODggMzUuNjUyMzQ0IDkuNzYxNzE5IDM4LjU3ODEyNSAxMS41NzgxMjUgQyAzOS4wNDY4NzUgMTEuODY3MTg4IDM5LjE5MTQwNiAxMi40ODQzNzUgMzguOTAyMzQ0IDEyLjk1MzEyNSBDIDM4LjcxMDkzOCAxMy4yNjE3MTkgMzguMzg2NzE5IDEzLjQyOTY4OCAzOC4wNTA3ODEgMTMuNDI5Njg4IEMgMzcuODcxMDk0IDEzLjQyOTY4OCAzNy42ODc1IDEzLjM3ODkwNiAzNy41MjM0MzggMTMuMjc3MzQ0IEMgMzIuNDkyMTg4IDEwLjE1NjI1IDI2LjIxMDkzOCAxMCAyNSAxMCBDIDIzLjc4OTA2MyAxMCAxNy41MDM5MDYgMTAuMTU2MjUgMTIuNDc2NTYzIDEzLjI3NzM0NCBDIDEyLjAwNzgxMyAxMy41NzAzMTMgMTEuMzkwNjI1IDEzLjQyNTc4MSAxMS4xMDE1NjMgMTIuOTU3MDMxIEMgMTAuODA4NTk0IDEyLjQ4NDM3NSAxMC45NTMxMjUgMTEuODcxMDk0IDExLjQyMTg3NSAxMS41NzgxMjUgQyAxNC4zNDc2NTYgOS43NjU2MjUgMTcuNTgyMDMxIDguODY3MTg4IDIwLjIxNDg0NCA4LjQyNTc4MSBDIDIwLjA2MjUgNy45Mjk2ODggMTkuOTI1NzgxIDcuNjE3MTg4IDE5LjkxNDA2MyA3LjU4OTg0NCBDIDE5LjczODI4MSA3LjIwMzEyNSAxOS4zNDM3NSA2Ljk2MDkzOCAxOC45MjE4NzUgNy4wMDM5MDYgQyAxOC42NTIzNDQgNy4wMjM0MzggMTIuMzU1NDY5IDcuNTY2NDA2IDguMzIwMzEzIDEwLjgxMjUgQyA2LjIxNDg0NCAxMi43NjE3MTkgMiAyNC4xNTIzNDQgMiAzNCBDIDIgMzQuMTc1NzgxIDIuMDQ2ODc1IDM0LjM0Mzc1IDIuMTMyODEzIDM0LjQ5NjA5NCBDIDUuMDM5MDYzIDM5LjYwNTQ2OSAxMi45NzI2NTYgNDAuOTQxNDA2IDE0Ljc4MTI1IDQxIEMgMTQuNzg5MDYzIDQxIDE0LjgwMDc4MSA0MSAxNC44MTI1IDQxIEMgMTUuMTMyODEzIDQxIDE1LjQzMzU5NCA0MC44NDc2NTYgMTUuNjIxMDk0IDQwLjU4OTg0NCBMIDE3LjQ0OTIxOSAzOC4wNzQyMTkgQyAxMi41MTU2MjUgMzYuODAwNzgxIDkuOTk2MDk0IDM0LjYzNjcxOSA5Ljg1MTU2MyAzNC41MDc4MTMgQyA5LjQzNzUgMzQuMTQ0NTMxIDkuMzk4NDM4IDMzLjUxMTcxOSA5Ljc2NTYyNSAzMy4wOTc2NTYgQyAxMC4xMjg5MDYgMzIuNjgzNTk0IDEwLjc2MTcxOSAzMi42NDQ1MzEgMTEuMTc1NzgxIDMzLjAwNzgxMyBDIDExLjIzNDM3NSAzMy4wNjI1IDE1Ljg3NSAzNyAyNSAzNyBDIDM0LjE0MDYyNSAzNyAzOC43ODEyNSAzMy4wNDY4NzUgMzguODI4MTI1IDMzLjAwNzgxMyBDIDM5LjI0MjE4OCAzMi42NDg0MzggMzkuODcxMDk0IDMyLjY4MzU5NCA0MC4yMzgyODEgMzMuMTAxNTYzIEMgNDAuNjAxNTYzIDMzLjUxNTYyNSA0MC41NjI1IDM0LjE0NDUzMSA0MC4xNDg0MzggMzQuNTA3ODEzIEMgNDAuMDAzOTA2IDM0LjYzNjcxOSAzNy40ODQzNzUgMzYuODAwNzgxIDMyLjU1MDc4MSAzOC4wNzQyMTkgTCAzNC4zNzg5MDYgNDAuNTg5ODQ0IEMgMzQuNTY2NDA2IDQwLjg0NzY1NiAzNC44NjcxODggNDEgMzUuMTg3NSA0MSBDIDM1LjE5OTIxOSA0MSAzNS4yMTA5MzggNDEgMzUuMjE4NzUgNDEgQyAzNy4wMjczNDQgNDAuOTQxNDA2IDQ0Ljk2MDkzOCAzOS42MDU0NjkgNDcuODY3MTg4IDM0LjQ5NjA5NCBDIDQ3Ljk1MzEyNSAzNC4zNDM3NSA0OCAzNC4xNzU3ODEgNDggMzQgQyA0OCAyNC4xNTIzNDQgNDMuNzg1MTU2IDEyLjc2MTcxOSA0MS42MjUgMTAuNzY5NTMxIFogTSAxOC41IDMwIEMgMTYuNTY2NDA2IDMwIDE1IDI4LjIxMDkzOCAxNSAyNiBDIDE1IDIzLjc4OTA2MyAxNi41NjY0MDYgMjIgMTguNSAyMiBDIDIwLjQzMzU5NCAyMiAyMiAyMy43ODkwNjMgMjIgMjYgQyAyMiAyOC4yMTA5MzggMjAuNDMzNTk0IDMwIDE4LjUgMzAgWiBNIDMxLjUgMzAgQyAyOS41NjY0MDYgMzAgMjggMjguMjEwOTM4IDI4IDI2IEMgMjggMjMuNzg5MDYzIDI5LjU2NjQwNiAyMiAzMS41IDIyIEMgMzMuNDMzNTk0IDIyIDM1IDIzLjc4OTA2MyAzNSAyNiBDIDM1IDI4LjIxMDkzOCAzMy40MzM1OTQgMzAgMzEuNSAzMCBaIj48L3BhdGg+PC9zdmc+"
                     />
                 </a>
-
                 <a href="/">
                     <img
                         alt="svgImg"
