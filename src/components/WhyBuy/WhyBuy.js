@@ -6,7 +6,7 @@ const WhyBuy = () => {
             id="featureArtist"
             className="px-6 mx-auto lg:w-5/6 pt-16 lg:px-16 mb-10"
         >
-            <p className="text-6xl heading font-extrabold mb-10">
+            <p className="text-6xl text-center heading font-extrabold mb-10">
                 WHY BUY OUR NFT
             </p>
             <div className="">
