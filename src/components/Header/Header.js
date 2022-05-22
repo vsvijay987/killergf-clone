@@ -103,7 +103,7 @@ const Header = () => {
                                         ROADMAP
                                     </Link>
                                 </li>
-                                <li className="cursor-pointer  text-xl font-bold hover:text-black">
+                                {/* <li className="cursor-pointer  text-xl font-bold hover:text-black">
                                     <Link
                                         to="featureArtist"
                                         spy={true}
@@ -124,7 +124,7 @@ const Header = () => {
                                     >
                                         TEAM
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                             <div className=" mt-12 flex justify-evenly">
                                 <a href="/">
@@ -189,7 +189,7 @@ const Header = () => {
                                     ROADMAP
                                 </Link>
                             </li>
-                            <li className="cursor-pointer pr-4 text-xl font-bold hover:text-black">
+                            {/* <li className="cursor-pointer pr-4 text-xl font-bold hover:text-black">
                                 <Link
                                     to="featureArtist"
                                     spy={true}
@@ -210,7 +210,7 @@ const Header = () => {
                                 >
                                     TEAM
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </section>

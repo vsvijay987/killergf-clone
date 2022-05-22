@@ -13,7 +13,7 @@ const Banner = () => {
                 collective wealth.
             </p>
             <button className=" bg-primary text-white font-para px-6 py-2 rounded-2xl">
-                View on openSea
+                View on OpenSea
             </button>
         </div>
     );
