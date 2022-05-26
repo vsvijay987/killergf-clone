@@ -13,7 +13,7 @@ const Header = () => {
             <nav>
                 <section className="flex lg:hidden">
                     <div
-                        className="space-y-2 flex flex-col"
+                        className="space-y-2 flex flex-col text-primary"
                         onClick={() => setIsNavOpen(!isNavOpen)}
                     >
                         <svg
@@ -46,7 +46,7 @@ const Header = () => {
                                 />
                             </a>
                             <div
-                                className="flex flex-col"
+                                className="flex flex-col text-primary"
                                 onClick={() => setIsNavOpen(false)}
                             >
                                 <svg
