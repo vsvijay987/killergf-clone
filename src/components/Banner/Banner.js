@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
     return (
-        <div className="p-6 mx-auto text-center lg:w-5/6 py-16">
+        <div className="p-6 flex mx-auto text-center lg:w-5/6 h-screen flex-col items-center justify-center">
             <p className="lg:text-5xl text-4xl heading mb-10">
                 WELCOME TO GODS OF RENAISSANCE
             </p>

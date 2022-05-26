@@ -6,7 +6,7 @@ import styles from "./Header.module.css";
 const Header = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
     return (
-        <div className="flex items-center justify-between p-8 top-0 z-50">
+        <div className="flex absolute w-full items-center justify-between p-8 top-0 z-50">
             <a href="/">
                 <img className="h-16" src="killergf.png" alt="killergf" />
             </a>
