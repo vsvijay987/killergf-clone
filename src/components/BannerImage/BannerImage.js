@@ -14,7 +14,11 @@ const BannerImage = () => {
                 ]}
                 className="aspect-[2/1] lg:h-screen"
             >
-                <img className="" src="killer-girl-bg3.jpg" alt="" />
+                <img
+                    className=""
+                    src="linear-gradient(to right, #434343 0%, black 100%)"
+                    alt=""
+                />
             </ParallaxBanner>
         </div>
     );

@@ -10,10 +10,12 @@ import DemoImage from "./components/DemoImage/DemoImage";
 import Roadmap from "./components/Roadmap/Roadmap";
 import Footer from "./components/Footer/Footer";
 import WhyBuy from "./components/WhyBuy/WhyBuy";
+import Particle from "./components/Particle/Particle";
 
 const App = () => {
     return (
         <div>
+            <Particle />
             <Header />
             <Banner />
             <BannerImage />

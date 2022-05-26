@@ -6,7 +6,7 @@ const Roadmap = () => {
             id="roadmap"
             className="px-2 mx-auto text-center lg:w-5/6 pt-16 lg:px-16"
         >
-            <p className="text-6xl heading font-extrabold mb-10">ROADMAP</p>
+            <p className="lg:text-5xl text-4xl heading mb-10">ROADMAP</p>
             <div className="text-left lg:mx-48">
                 <div className="flex mb-4 gap-4">
                     <div className="pt-2">
