@@ -6,7 +6,10 @@ const WhyBuy = () => {
             id="featureArtist"
             className="px-6 mx-auto lg:w-5/6 pt-16 lg:px-16 mb-10"
         >
-            <p className="lg:text-5xl text-4xl text-center heading mb-10">
+            <p
+                className="lg:text-5xl text-4xl text-center heading mb-10"
+                style={{ wordSpacing: "20px" }}
+            >
                 WHY BUY OUR NFT
             </p>
             <div className="">

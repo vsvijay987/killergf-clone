@@ -1,0 +1,54 @@
+.timeline {
+    position: relative;
+    width: 100%;
+}
+
+.timelineBox {
+    padding: 5px;
+    width: 40%;
+    min-height: 150px;
+    position: relative;
+    left: 5%;
+    text-align: left;
+}
+
+.timelineBox::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timelineBox:nth-child(2n) {
+    left: 53%;
+}
+
+.timelineBox:nth-child(2n+1)::after {
+    right: -14%;
+}
+
+.timelineBox:nth-child(2n)::after {
+    left: -9%;
+}
+
+.timelineContainer {
+    padding: 8px;
+}
+
+.timelineDivider {
+    position: absolute;
+    width: 0;
+    top: 2%;
+    left: 46%;
+    height: 88%;
+
+}
+
+.timelineTraveler {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}

@@ -6,7 +6,12 @@ const TheStory = () => {
             id="story"
             className="px-6 mx-auto text-center lg:w-5/6 pt-16 lg:px-16"
         >
-            <p className="lg:text-5xl text-4xl heading mb-10">THE STORY</p>
+            <p
+                className="lg:text-5xl text-4xl heading mb-10"
+                style={{ wordSpacing: "20px" }}
+            >
+                THE STORY
+            </p>
             <div className="">
                 <p className="font-para mb-10 ">
                     We don't need to skip to the future, because we are the

@@ -5,12 +5,8 @@ const BannerImage = () => {
         <div>
             <ParallaxBanner
                 layers={[
-                    {
-                        image: "killer-girl-bg.png",
-                        speed: -40,
-                    },
-                    { image: "killer-girl-bg2.png", speed: -30 },
-                    { image: "killer-girl.png", speed: -5, expanded: false },
+                    { image: "god_1.png", speed: -30 },
+                    { image: "god_2.png", speed: -5, expanded: false },
                 ]}
                 className="aspect-[2/1] lg:h-screen"
             >
