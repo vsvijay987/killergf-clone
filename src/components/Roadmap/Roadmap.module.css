@@ -52,3 +52,19 @@
     top: 135px;
     z-index: 2;
 }
+
+@media only screen and (max-width: 768px) {
+    .timelineBox {
+        width: 90%;
+        left: 10% !important;
+    }
+
+    .timelineBox::after {
+        left: -9.3% !important;
+    }
+
+    .timelineDivider {
+        top: 10%;
+        left: 2%;
+    }
+}
