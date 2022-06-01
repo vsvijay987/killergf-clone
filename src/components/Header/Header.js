@@ -8,7 +8,11 @@ const Header = () => {
     return (
         <div className="flex absolute w-full items-center justify-between p-8 top-0 z-50">
             <a href="/">
-                <img className="h-16" src="killergf.png" alt="killergf" />
+                <img
+                    className="h-20 brightness-200"
+                    src="god_3_logo1.png"
+                    alt="killergf"
+                />
             </a>
             <nav>
                 <section className="flex lg:hidden">
@@ -40,8 +44,8 @@ const Header = () => {
                         <div className="flex items-center justify-between w-full p-8 absolute top-0">
                             <a href="/">
                                 <img
-                                    className="h-16"
-                                    src="killergf.png"
+                                    className="h-20 brightness-200"
+                                    src="god_3_logo1.png"
                                     alt="killergf"
                                 />
                             </a>

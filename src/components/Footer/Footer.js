@@ -23,7 +23,11 @@ const Footer = () => {
             </div> */}
             <div className="flex mb-8 flex-col w-full justify-center">
                 <a className="flex justify-center lg:justify-start" href="/">
-                    <img className="h-16" src="killergf.png" alt="killergf" />
+                    <img
+                        className="h-20 brightness-200"
+                        src="god_3_logo1.png"
+                        alt="killergf"
+                    />
                 </a>
             </div>
             <div className="mb-8 flex flex-col justify-center lg:w-1/5">
