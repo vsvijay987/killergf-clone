@@ -1,9 +1,18 @@
-/* .box::before {
+/* .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.box::before {
     content: '';
     position: absolute;
-    width: 100%;
-    background: linear-gradient('#d6b600', '#fbf2f2');
-    animation: animate -4s linear infinite;
+    height: 150%;
+    width: 200px;
+    background: linear-gradient(#d6b600, #fbf2f2);
+    animation: animate 4s linear infinite;
 
 }
 
@@ -11,6 +20,16 @@
     content: '';
     position: absolute;
     inset: 4px;
-    background: 'black';
+    background: black;
     border-radius: 16px;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 } */

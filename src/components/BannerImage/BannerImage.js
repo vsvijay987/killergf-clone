@@ -1,5 +1,5 @@
 import { ParallaxBanner } from "react-scroll-parallax";
-import styles from "./BannerImage.module.css";
+// import styles from "./BannerImage.module.css";
 
 const BannerImage = () => {
     return (
