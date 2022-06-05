@@ -179,7 +179,7 @@ const Header = () => {
                         </div>
                     </div>
                 </section>
-                <section className="hidden lg:block flex">
+                <section className="hidden lg:block">
                     <div className="w-full">
                         <ul className="flex font-link">
                             <li className="lg:pr-12 text-xl font-bold text-primary">

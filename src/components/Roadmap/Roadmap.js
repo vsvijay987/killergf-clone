@@ -71,7 +71,7 @@ const Roadmap = () => {
                             <li>Investment in first Incubator</li>
                             <li>Roping in mega influencers</li>
                             <li>First party in DCL</li>
-                            <li>Launch of $MUDRA pre-sale</li>
+                            <li>Launch of $MOHUR pre-sale</li>
                             <li>NFT Staking </li>
                             <li>Launch of Land Mafia </li>
                         </ul>
@@ -92,7 +92,7 @@ const Roadmap = () => {
                         <ul className="font-para list-disc pl-8 lg:pl-16 list-outside">
                             <li>Launch of Loot Boxes for our P2E Games</li>
                             <li>Launch of renaissance dao</li>
-                            <li>audit of mudra </li>
+                            <li>audit of mohur </li>
                             <li>Launch of next collection</li>
                             <li>Regular passive income</li>
                             <li>coinmarketcap listing</li>
