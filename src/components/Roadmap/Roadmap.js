@@ -7,7 +7,7 @@ const Roadmap = () => {
             <p className="lg:text-5xl text-4xl heading mb-10">ROADMAP</p>
             <div className={styles.timeline}>
                 <div className={[styles.timelineBox, styles.left].join(" ")}>
-                    <div class={styles.timelineContainer}>
+                    <div className={styles.timelineContainer}>
                         <p className="font-para flex items-center gap-4 font-extrabold text-3xl text-primary mb-2 ">
                             <span className="hidden lg:block">
                                 <img
