@@ -1,0 +1,16 @@
+/* .box::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background: linear-gradient('#d6b600', '#fbf2f2');
+    animation: animate -4s linear infinite;
+
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: 'black';
+    border-radius: 16px;
+} */

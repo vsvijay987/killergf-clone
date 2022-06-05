@@ -9,8 +9,8 @@ const Header = () => {
         <div className="flex absolute w-full items-center justify-between p-8 top-0 z-50">
             <a href="/">
                 <img
-                    className="h-20 brightness-200"
-                    src="god_3_logo1.png"
+                    className="h-28 brightness-200"
+                    src="god_logo_4.png"
                     alt="killergf"
                 />
             </a>

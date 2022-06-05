@@ -24,8 +24,8 @@ const Footer = () => {
             <div className="flex mb-8 flex-col w-full justify-center">
                 <a className="flex justify-center lg:justify-start" href="/">
                     <img
-                        className="h-20 brightness-200"
-                        src="god_3_logo1.png"
+                        className="h-28 brightness-200"
+                        src="god_logo_4.png"
                         alt="killergf"
                     />
                 </a>

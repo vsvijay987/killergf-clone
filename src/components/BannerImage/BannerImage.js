@@ -1,12 +1,13 @@
 import { ParallaxBanner } from "react-scroll-parallax";
+import styles from "./BannerImage.module.css";
 
 const BannerImage = () => {
     return (
-        <div className="border-y-2 border-primary">
+        <div className=" border-y-8 border-primary">
             <ParallaxBanner
                 layers={[
                     // { image: "god_4.jpg", speed: -3 },
-                    { image: "god_3.jpg", speed: -30 },
+                    { image: "god_logo_4.png", speed: -1 },
                     { image: "god_2.png", speed: -10, expanded: false },
                 ]}
                 className="aspect-[2/1] lg:h-screen"
