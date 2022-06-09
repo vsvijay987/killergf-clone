@@ -4,10 +4,16 @@ const Banner = () => {
     return (
         <div className="p-6 flex mx-auto text-center mt-36 lg:mt-0 lg:w-5/6 h-screen flex-col lg:items-center lg:justify-center">
             <p
-                className="lg:text-5xl text-2xl heading mb-10 lg:w-2/3"
-                style={{ wordSpacing: "20px" }}
+                className="lg:text-5xl text-2xl heading mb-0 lg:mb-0 lg:w-2/3"
+                style={{ wordSpacing: "15px" }}
             >
-                WELCOME TO GODS OF RENAISSANCE
+                WELCOME TO
+            </p>
+            <p
+                className="lg:text-5xl text-2xl heading mb-10"
+                style={{ wordSpacing: "15px" }}
+            >
+                GODS OF RENAISSANCE
             </p>
 
             <p className="font-para mb-10 lg:px-48">

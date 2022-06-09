@@ -24,8 +24,8 @@ code {
 }
 
 .font-para {
-  font-family: 'Macondo', cursive;
-  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+  /* font-weight: 200; */
   color: white;
   font-size: x-large
 }

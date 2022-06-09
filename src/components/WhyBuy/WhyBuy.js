@@ -19,7 +19,7 @@ const WhyBuy = () => {
                 WHY BUY OUR NFT
             </p>
             <div className="">
-                <ul className="list-disc font-para px-8 space-y-6">
+                <ul className="list-disc font-para px-8 space-y-6 text-left">
                     <li>
                         <animated.span style={spring}>
                             Passive Income:{" "}
