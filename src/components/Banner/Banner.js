@@ -23,7 +23,7 @@ const Banner = () => {
                 collective wealth.
             </p>
             <a
-                href="https://discord.gg/HPN78NukYb"
+                href="https://discord.gg/A2MpqxXFXh"
                 target="_blank"
                 alt="Discord"
                 rel="noreferrer"

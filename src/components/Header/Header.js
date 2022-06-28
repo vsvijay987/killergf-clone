@@ -142,7 +142,7 @@ const Header = () => {
                                     />
                                 </a>
                                 <a
-                                    href="https://discord.gg/HPN78NukYb
+                                    href="https://discord.gg/A2MpqxXFXh
 "
                                     target="_blank"
                                     rel="noreferrer"
@@ -256,7 +256,7 @@ const Header = () => {
                     />
                 </a>
                 <a
-                    href="https://discord.gg/HPN78NukYb
+                    href="https://discord.gg/A2MpqxXFXh
 "
                     target="_blank"
                     rel="noreferrer"
