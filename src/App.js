@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Banner from "./components/Banner/Banner";
 import Header from "./components/Header/Header";
@@ -11,10 +11,18 @@ import Roadmap from "./components/Roadmap/Roadmap";
 import Footer from "./components/Footer/Footer";
 import WhyBuy from "./components/WhyBuy/WhyBuy";
 import Particle from "./components/Particle/Particle";
+import ReactGA from "react-ga";
+import { BrowserRouter as Routers } from "react-router-dom";
+
+const TRACKING_ID = "UA-191680030-1"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 const App = () => {
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }, []);
     return (
-        <div>
+        <Routers>
             <Particle />
             <Header />
             <Banner />
@@ -26,7 +34,7 @@ const App = () => {
             {/* <FeatureArtist /> */}
             {/* <Team /> */}
             <Footer />
-        </div>
+        </Routers>
     );
 };
 

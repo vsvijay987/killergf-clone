@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 
 import styles from "./Header.module.css";
+import useAnalyticsEventTracker from "../../hooks/useAnalyticsEventTracker";
 
 const Header = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
+    const gaEventTracker = useAnalyticsEventTracker("Header");
     return (
         <div className="flex absolute w-full items-center justify-between p-8 top-0 z-50">
             <a href="/">
@@ -72,11 +74,17 @@ const Header = () => {
                         <div className="w-full px-4 ">
                             <ul className="font-link text-center space-y-10">
                                 <li className=" text-xl font-bold  text-primary">
-                                    <a href="/">HOME</a>
+                                    <a
+                                        href="/"
+                                        onClick={() => gaEventTracker("Home")}
+                                    >
+                                        HOME
+                                    </a>
                                 </li>
                                 <li className="cursor-pointer  text-xl font-bold hover:text-primary">
                                     <Link
                                         to="story"
+                                        onClick={() => gaEventTracker("Story")}
                                         spy={true}
                                         smooth={true}
                                         offset={50}
@@ -92,6 +100,9 @@ const Header = () => {
                                         smooth={true}
                                         offset={-50}
                                         duration={1000}
+                                        onClick={() =>
+                                            gaEventTracker("Gallery")
+                                        }
                                     >
                                         GALLERY
                                     </Link>
@@ -99,6 +110,9 @@ const Header = () => {
                                 <li className="cursor-pointer text-xl font-bold hover:text-primary">
                                     <Link
                                         to="roadmap"
+                                        onClick={() =>
+                                            gaEventTracker("Roadmap")
+                                        }
                                         spy={true}
                                         smooth={true}
                                         offset={-50}
@@ -134,6 +148,7 @@ const Header = () => {
                                 <a
                                     href="https://twitter.com/renaissancetwt?s=20&t=dIUCflyYbIDxida4IEjVTA"
                                     target="_blank"
+                                    onClick={() => gaEventTracker("Twitter")}
                                     rel="noreferrer"
                                 >
                                     <img
@@ -145,6 +160,7 @@ const Header = () => {
                                     href="https://discord.gg/A2MpqxXFXh
 "
                                     target="_blank"
+                                    onClick={() => gaEventTracker("Discord")}
                                     rel="noreferrer"
                                 >
                                     <img
@@ -158,6 +174,7 @@ const Header = () => {
 "
                                     target="_blank"
                                     rel="noreferrer"
+                                    onClick={() => gaEventTracker("Instagram")}
                                 >
                                     <img
                                         alt="svgImg"
@@ -169,6 +186,7 @@ const Header = () => {
 "
                                     target="_blank"
                                     rel="noreferrer"
+                                    onClick={() => gaEventTracker("Medium")}
                                 >
                                     <img
                                         alt="svgImg"
@@ -190,6 +208,7 @@ const Header = () => {
                                     to="story"
                                     spy={true}
                                     smooth={true}
+                                    onClick={() => gaEventTracker("story")}
                                     offset={50}
                                     duration={1000}
                                 >
@@ -200,6 +219,7 @@ const Header = () => {
                                 <Link
                                     to="demoImage"
                                     spy={true}
+                                    onClick={() => gaEventTracker("gallery")}
                                     smooth={true}
                                     offset={-50}
                                     duration={1000}
@@ -211,6 +231,7 @@ const Header = () => {
                                 <Link
                                     to="roadmap"
                                     spy={true}
+                                    onClick={() => gaEventTracker("roadmap")}
                                     smooth={true}
                                     offset={-20}
                                     duration={1000}
@@ -249,6 +270,7 @@ const Header = () => {
                     href="https://twitter.com/renaissancetwt?s=20&t=dIUCflyYbIDxida4IEjVTA"
                     target="_blank"
                     rel="noreferrer"
+                    onClick={() => gaEventTracker("twitter")}
                 >
                     <img
                         alt="svgImg"
@@ -260,6 +282,7 @@ const Header = () => {
 "
                     target="_blank"
                     rel="noreferrer"
+                    onClick={() => gaEventTracker("discord")}
                 >
                     <img
                         alt="svgImg"
@@ -272,6 +295,7 @@ const Header = () => {
 "
                     target="_blank"
                     rel="noreferrer"
+                    onClick={() => gaEventTracker("instagram")}
                 >
                     <img
                         alt="svgImg"
@@ -283,6 +307,7 @@ const Header = () => {
 "
                     target="_blank"
                     rel="noreferrer"
+                    onClick={() => gaEventTracker("medium")}
                 >
                     <img
                         alt="svgImg"
